@@ -1,5 +1,3 @@
-import React from "react";
-
 function AllDetails({ students, updateScore }) {
   return (
     <table>

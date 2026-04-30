@@ -1,5 +1,3 @@
-import React from "react";
-
 function StudentsSummary({ students }) {
   const total = students.length;
   const passed = students.filter(s => s.score >= 40).length;
